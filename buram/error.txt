@@ -1,0 +1,16 @@
+error 
+materi 
+1. button, 
+2. delete list, 
+3. form nya 3 col aja, 
+4. TOMBOL BACK PALING KANAN, 
+5. (LIST, ACIVATE HIDEEN IF PARAM == NULL) 
+6. is active dan bobot tukar posisi
+
+transaction
+1. kalo param == null, hide tombol post sama cancel
+2. div kelebihan
+3. sorting detail detail
+
+report 
+1. nama column
