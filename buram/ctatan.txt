@@ -1,0 +1,31 @@
+2500000453
+https://www.imonitoring.net/imon/main.aspx
+
+
+uname : fauzan@ims-tec.com
+pword : 7(,T)jxQ#2Ea
+
+link           : http://192.168.1.99:8610/ifinancing/ifinopl/main
+username : admin
+password : a
+
+
+https://192.168.1.84/svn/DIPO/Document/FSD/User Guide
+
+
+(SQL19DIPO)
+Dev Dipo star Finance
+192.168.1.99,1509
+sa
+!ms2019D1P0
+
+
+
+
+
+
+------------------------------------
+DSF.PRR.2401.000309
+
+aset 
+1000.ASM.2502.00001

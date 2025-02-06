@@ -1,0 +1,10 @@
+"code": "BT.2501.000001",
+"borrow_date": "2025-01-05T00:00:00",
+"status": "HOLD",
+"borrower_code": "1",
+"total_rent_amount": 0.00,
+"estimate_return_date": "2025-01-11T00:00:00",
+"realization_return_date": "2025-01-14T00:00:00",
+"total_late_charge_amount": 0.00,
+"file_name": null,
+"file_path": null
