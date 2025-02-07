@@ -1,0 +1,67 @@
+{
+	// Place your github workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Select * from table": {
+		"scope": "sql",
+		"prefix": "sf",
+		"body": [
+			"SELECT *",
+			 "FROM $1;"
+		],
+		"description": "Select * from table"
+	},
+
+	"Validate Date Trainee": {
+		"scope": "sql",
+		"prefix": "validasi",
+		"body": [
+			"DECLARE @msg NVARCHAR(max);",
+			"--kondisi",
+			"$1",
+			"BEGIN",
+			"	SET @msg = 'pesan_error';",
+			"	RAISERROR(@msg, 16, -2);",
+			"END;"
+		],
+		"description": "Validate Date Trainee"
+	},
+
+	
+	"Declare Variable For Unique Code": {
+		"scope": "sql",
+		"prefix": "generate_code",
+		"body": [
+			"DECLARE @year NVARCHAR(2);",
+			"		 @month NVARCHAR(2);",
+			"",
+			"SET @year = SUBSTRING(CAST(DATEPART(YEAR, @p_cre_date) AS NVARCHAR), 3, 2);",
+			"SET @month = REPLACE(STR(CAST(DATEPART(MONTH, @p_cre_date) AS NVARCHAR), 2, 0), ' ', '0');",
+			"",
+			"EXEC dbo.xsp_get_next_unique_code_for_table @p_unique_code 		= @p_code output",
+			"											,@p_branch_code 		= ''",
+			"											,@p_sys_document_code 	= ''",
+			"											,@p_custom_prefix 		= 'INISIAL_TABEL'",
+			"											,@p_year 				= @year",
+			"											,@p_month 				= @month",
+			"											,@p_table_name 			= 'nama_tabel'",
+			"											,@p_run_number_length 	= 6",
+			"											,@p_delimiter 			= '.'",
+			"											,@p_run_number_only 	= N'0';"
+		],
+		"description": "Declare Variable For Unique Code"
+	},
+}
