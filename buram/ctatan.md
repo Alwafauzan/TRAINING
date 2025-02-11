@@ -56,3 +56,10 @@ https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%
 
 
 
+
+http://localhost:4200/application/subapplicationtbodocumentlist/applicationtbodocumentdetail/0000050.4.01.11.2023
+
+http://localhost:4200/application/subapplicationtbodocumentlist/applicationtbodocumentdetail/0000006.4.01.11.2023
+
+
+DocumentStorageDetail
