@@ -1,0 +1,20 @@
+cloud sql proxy 
+-- Cloude PrePr  
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 8888 --credentials-file .\ims-opl-qa-f4b4d76cc573.json ims-opl-qa:asia-southeast2:db-lms-opl-qa-latin1
+
+-- Cloude New QA
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 12345 --credentials-file .\ifinancing-qa-51b38f3417c5.json ifinancing-qa:asia-southeast2:qa-ifinancing
+
+-- Cloude New PROD
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 9999 --credentials-file .\ifinancing-prod-c7f910e2da91.json ifinancing-prod:asia-southeast2:ifinancing-db-app-prod
+
+
+
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 4321 --credentials-file .\ifinancing-prod-c7f910e2da91.json ifinancing-prod:asia-southeast2:ifinancing-data-migration
+
+
+Username : ims-opl1 
+ims-sqlagent
+Password : D3v3l0peR
+
+St4rlight*

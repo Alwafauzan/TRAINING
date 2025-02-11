@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ifinancing-qa",
+  "private_key_id": "51b38f3417c562b5d3c8f8906825b914457abefc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDphqJ9giVHONNM\nu5znx0nh1OIlToup3TkuePO3FA6hav60YzwN+1WRdBNByow7rr4VWoBs38EWG6Vs\niJ7AZAcFSUM/iVsuD/okwbvSXRGiUSkkMOx5U3A/gcwkY2OvgoRSvRMHFm2Sg5Dm\nAwzL+F32EqwrPEOYSOe6qrG/LCASuVB43iGByZ55VuNlFH8WNAygCY3zQZ0zNZeJ\n5AQQHw0a0j+2TYXcWdAHcOXExxIhu6VqjO35xAuzT3sDZzVvJKtD38YC6RfVdXhR\nhqPtNv7tZGl5qgNfJz4hcUm/08zAyQqU5+wJfeCteGKKBUHd9gxhl0BRIyBpyrWJ\nK0cdFLwlAgMBAAECgf8YoRqCIjfMSzH95cumpl4kc09mn+IbCDn/rMIHjRX98Ers\nu4qZ7ugXbyaYycQAh22E0wa4dODodAH+cGpN4D7dT9zH1rTHJug6+DPW+/ngJK8y\nIfbO1P4BtK7TJ6hb2mgaUdav6K2lxjqCB9BRsuA2E8IUzUZTyVynU1lr0DuRvcYg\n/uQ4zjzndhriMC1WZiFw+3MYCZDT50p2sN3dT2iFfJfFnz2/P6x1saxJP78H9nwT\n56dL08cOB0JDrVlVQzFlneXTHbnV+mjabsFCN/HGELN1DeDj3fUKRjK0ZYFCCdTm\nWf/MQeYsxHu/mhLWNT3TWVeDSMXpwdRNdOKeESUCgYEA/o5CpEA0D1VRh5rKjZcd\n1xFMw9bqHjlLRNGGlZraVpTuaDVfxq4jstMWjQ2LusDsJyds+QITROT3uLJd2teL\nPIu7DIW1duoPOcUdrXxJxuZP0dI6HrI9t58GURlMqcXd7JnK9CQMdYNOTECeRIGs\n+nEVNfazTdZFyChPAWmFlTMCgYEA6tnUL1drRgptkWixqiRKqNmE71CdF/V3a68O\ncqx7A/ip3ohfZlj5PGnBYmKjVLjnDBmBUeArViWEMVGkuU9uhOla0b9wx00FGjiS\nmo2fcP2B3o1QRASomlpMRLPae5bzv8B8vZcocIwj2IF7o95bSoKc5bzL7SYyCUG0\nkNnwOUcCgYBCHbUVcE+VQ/W/IOdHS17Gw4mKvEFmxD7Wiw1Hwka/gkNB8csEkapY\nAhezXzdRtFYh/U2Ch5V1qXrmD/3sn1tcyHY21GvDjRuTR61jqAqJjLxipRXPb0A0\ndytu2QFefzQbBf7+1nYd95LYn1f8Nyo0ijaWI5OCvgq16DJNDZlSnQKBgQCUOFp0\nboXjtJ0mUp8etLzyCCagK46aGm/+ZIOH2FfjT8NWEVe0bp8Og+hrQbm3tOMNfeNi\nW0q+mfrubYq68ejctbJ+AocZIgEAZYgRRyTD2Rtn7GQmKZKHqEnOanyP19uKv996\ngLYjIi9Va5Mu/x06z2hajmdeCuc1dGSTrxiv7QKBgCGxYNFFYuUmKX2RvPNHm98p\nFUbhUsWFIMA1g/xJ352YRnRNWDCyQO/NqvBVpzGf1W0nIH1MW4ZXP9vKrAkK3Hzl\nuvaBJnHTKjCjeiQlkSAGzrPGQmBpdPJ32nhgq1PteHhu2MC9Mzn6ameHECiRraCM\nfJ7B+vii/R0YXoDzye67\n-----END PRIVATE KEY-----\n",
+  "client_email": "ifinancing-qa@ifinancing-qa.iam.gserviceaccount.com",
+  "client_id": "104098722538918540077",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ifinancing-qa%40ifinancing-qa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

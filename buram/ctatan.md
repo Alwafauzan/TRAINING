@@ -26,6 +26,15 @@ sa
 
 <!--? =====================================dipo_local===================================== -->
 
+<!-- ! dipo_QA -->
+https://qaifinancing.dipostar.org/ifinancing/mainmenu/main
+Raffy.Anda
+DSFxPTIMS.Tec
+
+
+https://ifinancing.dipostar.com/ifinancing/mainmenu/main
+<!-- ! dipo_QA -->
+
 
 
 =====================================login ticket dipo=====================================
@@ -41,26 +50,9 @@ https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%
 
 
 <!--! ------------------------------------ -->
-DSF.PRR.2401.000309
-
-aset 
 1000.ASM.2502.00001
-
-opl
-0000020/4/38/11/2023
-
-aset
-1000.ASM.2502.00002
-1000.ASM.2502.00001 
-
-maintenance
-1000.MN.2502.00001
-
-
-request 130,800.00
-payment list hold 1,931,275.00
-
-cv maka rapi
+1000.MN.2502.00006
+1000/DSF-SPK/2411/35285
 
 
 

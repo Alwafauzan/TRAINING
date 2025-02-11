@@ -1,0 +1,1 @@
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 1234 --credentials-file .\ims-opl-qa-f4b4d76cc573.json ims-opl-qa:asia-southeast2:imsdb-opl-qa
