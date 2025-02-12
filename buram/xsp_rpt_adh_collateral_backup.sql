@@ -159,6 +159,7 @@ BEGIN
 			,trx_date
 			,input_by
 		)
+-- fauzan 10-02-2025 bikin persyaratan tambahan (where id dan order by agreement date biar data ga double)
 	select   @p_user_id
 			,code
 			,agreement_no
