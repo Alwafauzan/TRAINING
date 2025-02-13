@@ -48,6 +48,9 @@ https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%
 
 =====================================login ticket dipo=====================================
 
+server support 
+http://192.168.1.99:8610/ifinancing/ifinopl/main
+
 
 
 <!--! ------------------------------------ -->
