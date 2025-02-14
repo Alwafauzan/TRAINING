@@ -64,4 +64,25 @@
 		],
 		"description": "Declare Variable For Unique Code"
 	},
+
+"Begin Transaction and Execute Stored Procedures": {
+    "scope": "sql",
+    "prefix": "rollback_template",
+    "body": [
+        "BEGIN TRANSACTION",
+        "--region eksekusi sp",
+        "EXEC dbo.nama_sp",
+        "",
+        "",
+        "",
+        "",
+        "--region target sp yang dieksekusi",
+        "SELECT * FROM nama_tabel;",
+        "--endregion",
+        "",
+        "ROLLBACK TRANSACTION;"
+    ],
+    "description": "Begin Transaction and Execute Stored Procedures with Rollback"
+}
+
 }

@@ -18,6 +18,8 @@ https://192.168.1.84/svn/DIPO/Document/FSD/User Guide
 raffi
 raffi
 
+
+
 <!--* =====================================db===================================== -->
 (SQL19DIPO)
 Dev Dipo star Finance
@@ -34,6 +36,9 @@ https://ifinancing.dipostar.com/ifinancing/mainmenu/main
 
 Raffy.Anda
 DSFxPTIMS.Tec
+
+fauzan
+Dsfjho.2025
 <!-- ! dipo_QA -->
 
 
@@ -51,7 +56,13 @@ https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%
 server support 
 http://192.168.1.99:8610/ifinancing/ifinopl/main
 
-
+127.0.0.1,9999
+ims-sqlagent
+D3v3l0peR
+ 
+ 
+-- Cloude New PROD
+.\cloud-sql-proxy.exe --address 0.0.0.0 --port 9999 --credentials-file .\ifinancing-prod-c7f910e2da91.json ifinancing-prod:asia-southeast2:ifinancing-db-app-prod
 
 <!--! ------------------------------------ -->
 1000.ASM.2502.00001
