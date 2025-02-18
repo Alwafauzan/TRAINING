@@ -1,6 +1,8 @@
 2500000453
 https://www.imonitoring.net/imon/main.aspx
 
+anydesk
+1104416422
 
 <!--! =====================================my_email===================================== -->
 uname       : fauzan@ims-tec.com
@@ -78,3 +80,13 @@ http://localhost:4200/application/subapplicationtbodocumentlist/applicationtbodo
 
 
 DocumentStorageDetail
+
+
+
+
+=SUMIFs(Pemasukan!B2:B,Pemasukan!E2:E,"Masuk",Pemasukan!H2:H,I9)
+-SUMIFs(Pemindahan_dana!B2:B,Pemindahan_dana!E2:E,"Pemindahan Dana",Pemindahan_dana!G2:G,I9)
+-SUMIFs(Pemindahan_dana!C2:C,Pemindahan_dana!E2:E,"Pemindahan Dana",Pemindahan_dana!G2:G,I9)
++SUMIFs(Pemindahan_dana!B2:B,Pemindahan_dana!E2:E,"Pemindahan Dana",Pemindahan_dana!H2:H,I9)
+
+=FILTER(B:B, MONTH(A:A) = 2, YEAR(A:A) = 2025)
