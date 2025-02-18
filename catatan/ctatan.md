@@ -90,3 +90,17 @@ DocumentStorageDetail
 +SUMIFs(Pemindahan_dana!B2:B,Pemindahan_dana!E2:E,"Pemindahan Dana",Pemindahan_dana!H2:H,I9)
 
 =FILTER(B:B, MONTH(A:A) = 2, YEAR(A:A) = 2025)
+
+
+
+SELECT * FROM dbo.ADDITIONAL_INVOICE_REQUEST
+where CODE = '1000.ADN.2501.000030'
+
+--1000/ADN/2501/000030
+
+03113/INV/1000/01/2025
+
+
+192.168.1.99:8610
+192.168.1.84
+192.168.1.99,1509
